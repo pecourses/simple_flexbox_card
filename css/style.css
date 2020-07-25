@@ -1,0 +1,9 @@
+
+.emailInput:invalid{
+    border: 5px solid red;
+}
+
+.emailInput:valid{
+    border: 5px solid green;
+}
+
