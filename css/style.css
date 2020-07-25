@@ -10,11 +10,9 @@ body {
     background-color: dodgerblue;
     font-family: 'Open Sans', sans-serif;
 
-    min-height: 100vh;
 
     display: flex;
     justify-content: center;
-    align-items: center;
 
     flex-wrap: wrap;
 
