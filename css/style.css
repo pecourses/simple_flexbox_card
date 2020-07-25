@@ -1,9 +1,26 @@
+.container{
+    display: flex;
 
-.emailInput:invalid{
-    border: 5px solid red;
+    flex-flow: column wrap; /* ===> flex-direction: row; flex-wrap: wrap;  */
+
+    justify-content: center;
+    align-items: center;
+
+
+    height: 900px;
+    border: 1px solid green;
 }
 
-.emailInput:valid{
-    border: 5px solid green;
+.child:nth-child(3){
+    align-self: flex-end;
+}
+
+.child{
+    color: white;
+    font-size: 3em;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: red;
 }
 
